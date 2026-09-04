@@ -1,0 +1,50 @@
+# ============================================
+# KWAN PLUS - .gitignore
+# ============================================
+
+# Config files with sensitive data
+config/config.php
+config/database.php
+.env
+*.env
+
+# Logs
+logs/
+*.log
+error_log
+
+# Temporary files
+assets/temp/
+tmp/
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.sql
+
+# Uploaded files (keep folder, exclude content)
+assets/uploads/*
+!assets/uploads/.gitkeep
+
+# Composer
+vendor/
+composer.lock
+
+# Node modules (if any)
+node_modules/
+package-lock.json
+
+# Cache
+.cache/
+*.cache
